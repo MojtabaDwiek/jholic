@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>j-holic | Soft Radiant Skincare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="bubbleField" class="bubble-field" aria-hidden="true"></div>
+  <div class="atmosphere"></div>
+  <header class="nav">
+    <div class="brand">j-holic</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#whyus">Why Us</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="pill" id="cartToggle">Cart <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero hero-split">
+      <div class="hero-pane hero-one" aria-hidden="true"></div>
+      <div class="hero-pane hero-two" aria-hidden="true"></div>
+      <div class="hero-copy hero-overlay">
+        <h1 class="header-title">
+          <span class="header-primary">Soft Radiance</span>
+          <span class="header-sub">Unseen glow, above and below skin</span>
+        </h1>
+        <p class="lede">Two layers of care: surface luminosity and deep barrier calm. Tap into curated rituals with a human on WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#products">Shop the edit</a>
+          <a class="ghost" href="#whyus">Why j-holic?</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="whyus" class="section why-modern">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Why j-holic</p>
+          <h2>Science-led calm. Ritual-worthy feel.</h2>
+          <p class="lede subtle">A tight edit of formulas tuned for barrier health, glow, and ease—guided to checkout with a human on WhatsApp.</p>
+        </div>
+        <div class="why-pills">
+          <span class="pill-lite">Barrier safe</span>
+          <span class="pill-lite">Derm-tested</span>
+          <span class="pill-lite">Vegan</span>
+        </div>
+      </div>
+      <div class="why-modern-grid">
+        <div class="why-stack">
+          <div class="why-row">
+            <div class="why-icon">🧬</div>
+            <div>
+              <h3>Actives with cushioning</h3>
+              <p>Potent ingredients buffered with ceramides and humectants so skin stays soothed while results build.</p>
+            </div>
+          </div>
+          <div class="why-row">
+            <div class="why-icon">🧴</div>
+            <div>
+              <h3>Curated capsules</h3>
+              <p>Four collections, zero clutter. Mixable without conflict to fit dry, sensitive, or combination routines.</p>
+            </div>
+          </div>
+          <div class="why-row">
+            <div class="why-icon">💬</div>
+            <div>
+              <h3>WhatsApp concierge</h3>
+              <p>Add to cart, then hand off to a human—questions, tweaks, and confirmation all in one chat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-visual" aria-hidden="true">
+          <div class="image-stack">
+            <div class="block">
+              <div class="side -main"></div>
+              <div class="side -left"></div>
+            </div>
+            <div class="block">
+              <div class="side -main"></div>
+              <div class="side -left"></div>
+            </div>
+            <div class="block">
+              <div class="side -main"></div>
+              <div class="side -left"></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-header spaced">
+        <div>
+          <p class="eyebrow">The collections</p>
+          <h2>Choose your glow path</h2>
+          <p class="lede subtle">Browse each collection, add your favorites, and send your edit via WhatsApp.</p>
+        </div>
+        <div id="categoryFilters" class="filters"></div>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <section id="about" class="section about-modern">
+      <div class="section-header spaced text-center">
+        <div>
+          <p class="eyebrow">About j-holic</p>
+          <h2>Science-led rituals with human care.</h2>
+          <p class="lede subtle">We build concise routines that respect your barrier, balance actives, and keep a real human in the loop on WhatsApp.</p>
+        </div>
+      </div>
+      <div class="about-modern-grid">
+        <div class="about-visual">
+          <div class="about-stack">
+            <div class="about-card about-photo about-photo-a"></div>
+            <div class="about-card about-photo about-photo-b"></div>
+          </div>
+          <div class="about-pillars">
+            <span class="pill-lite">Derm-tested</span>
+            <span class="pill-lite">Vegan</span>
+            <span class="pill-lite">Barrier safe</span>
+          </div>
+        </div>
+        <div class="about-panel">
+          <div class="about-panel-head">
+            <h3>Built for calm, luminous skin</h3>
+            <p class="subtle">High-efficacy ingredients, cushioned with ceramides and humectants. We guide you to combinations that play well together.</p>
+          </div>
+          <div class="about-points">
+            <div class="about-point">
+              <div class="dot"></div>
+              <div>
+                <h4>Formulate</h4>
+                <p class="subtle">Balanced ratios of actives, always pH-considered and fragrance-light.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="dot"></div>
+              <div>
+                <h4>Source</h4>
+                <p class="subtle">Traceable botanicals and clinically proven synthetics screened for sensitivity.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="dot"></div>
+              <div>
+                <h4>Support</h4>
+                <p class="subtle">WhatsApp concierge for tweaks, delivery routing, and routine pairing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-cta">
+            <a class="primary" href="#products">Shop the edit</a>
+            <a class="ghost" href="https://wa.me/" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="cartPanel" class="cart-panel">
+    <div class="cart-header">
+      <div>
+        <p class="eyebrow">Your cart</p>
+        <h3>Ready to send</h3>
+      </div>
+      <button class="icon" id="closeCart" aria-label="Close cart">×</button>
+    </div>
+    <ul id="cartItems" class="cart-items"></ul>
+    <div class="cart-footer">
+      <div class="totals">
+        <span>Subtotal</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <button id="checkoutBtn" class="primary block">WhatsApp order</button>
+      <p class="meta">No payment is processed here—your order is sent as a WhatsApp message.</p>
+    </div>
+  </aside>
+  <div id="cartBackdrop" class="backdrop"></div>
+
+  <footer class="footer">
+    <div class="foot-brand">
+      <div class="brand">j-holic</div>
+      <p class="subtle">Soft rituals, vivid results. Guided support on WhatsApp.</p>
+      <div class="foot-actions">
+        <a class="primary" href="https://wa.me/" target="_blank" rel="noreferrer">Chat now</a>
+        <a class="ghost" href="#products">Shop</a>
+      </div>
+    </div>
+    <div class="foot-links">
+      <h4>Explore</h4>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="foot-links">
+      <h4>Support</h4>
+      <a href="#whyus">Why j-holic</a>
+      <a href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp concierge</a>
+      <a href="mailto:hello@j-holic.com">hello@j-holic.com</a>
+    </div>
+    <div class="foot-links">
+      <h4>Follow</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+</body>
+</html>
