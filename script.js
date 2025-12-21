@@ -1,11 +1,11 @@
-﻿const WHATSAPP_NUMBER = "96171933175"; // Update with your WhatsApp number (country code + number, no plus sign)
+﻿const WHATSAPP_NUMBER = "96171561608"; // Update with your WhatsApp number (country code + number, no plus sign)
 
 const products = [
   {
     id: "glow-kit",
     name: "Glow Ritual Kit",
     price: 68,
-    category: "Glow Sets",
+    category: "Skin Care",
     description: "A three-step ritual with enzyme cleanser, dew serum, and cloud cream for a bright, cushiony finish.",
     image: "assets/p1.jpg",
   },
@@ -13,7 +13,7 @@ const products = [
     id: "midnight-reset",
     name: "Midnight Reset",
     price: 56,
-    category: "Glow Sets",
+    category: "Skin Care",
     description: "Retinal alternative, ceramide mist, and peptide balm that repair while you sleep.",
     image: "assets/p2.jpg",
   },
@@ -21,7 +21,7 @@ const products = [
     id: "silk-cleanse",
     name: "Silk Cleanse Gel",
     price: 24,
-    category: "Cleansers",
+    category: "Hair Care",
     description: "pH-balanced gel with rice ferment and amino acids-melts sunscreen without stripping.",
     image: "assets/p3.jpg",
   },
@@ -29,7 +29,7 @@ const products = [
     id: "melting-milk",
     name: "Melting Milk Balm",
     price: 28,
-    category: "Cleansers",
+    category: "Body Care",
     description: "Cream-to-milk balm with meadowfoam and oat lipid for a plush first cleanse.",
     image: "assets/p4.jpg",
   },
@@ -37,7 +37,7 @@ const products = [
     id: "glass-serum",
     name: "Glass Skin Serum",
     price: 36,
-    category: "Serums",
+    category: "Skin Care",
     description: "Niacinamide, hyaluronic acid, and tranexamic acid for tone-evening, pore-softening radiance.",
     image: "assets/p5.jpg",
   },
@@ -45,7 +45,7 @@ const products = [
     id: "calm-essence",
     name: "Calm Barrier Essence",
     price: 32,
-    category: "Serums",
+    category: "Supplements / Vitamins",
     description: "Green tea, panthenol, and beta-glucan to soothe flushed, sensitized skin instantly.",
     image: "assets/p6.jpg",
   },
@@ -53,7 +53,7 @@ const products = [
     id: "smooth-peel",
     name: "Smooth Renew Peel",
     price: 30,
-    category: "Treatments",
+    category: "Body Care",
     description: "Lactic + mandelic blend buffered with polyglutamic acid for a no-burn weekly reset.",
     image: "assets/p7.jpg",
   },
@@ -61,7 +61,7 @@ const products = [
     id: "spot-veil",
     name: "Spot Veil Corrector",
     price: 22,
-    category: "Treatments",
+    category: "Makeup",
     description: "Encapsulated salicylic and azelaic acid target blemishes without drying surrounding skin.",
     image: "assets/p8.jpg",
   },
@@ -93,11 +93,11 @@ let checkoutDelivery;
 let checkoutTotal;
 
 const deliveryAreas = [
-  { key: "beirut", label: "Beirut – same-day glow drop", fee: 5 },
-  { key: "mount-lebanon", label: "Mount Lebanon – evening hand-off", fee: 7 },
-  { key: "south", label: "South – sunbelt route", fee: 10 },
-  { key: "north", label: "North/Tripoli – coastal delivery", fee: 9 },
-  { key: "bekaa", label: "Bekaa/Zahle – valley delivery", fee: 11 },
+  { key: "Beirut", label: "Beirut", fee: 5 },
+  { key: "Mount-lebanon", label: "Mount Lebanon", fee: 7 },
+  { key: "South", label: "South", fee: 10 },
+  { key: "North", label: "North/Tripoli", fee: 9 },
+  { key: "Bekaa", label: "Bekaa/Zahle", fee: 11 },
 ];
 
 function init() {
