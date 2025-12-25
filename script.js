@@ -2,78 +2,178 @@
 
 const products = [
   {
-    id: "glow-kit",
-    name: "Glow Ritual Kit",
-    price: 68,
-    category: "Skin Care",
-    description: "A three-step ritual with enzyme cleanser, dew serum, and cloud cream for a bright, cushiony finish.",
-    image: "assets/p1.jpg",
+    id: "detangling-spray",
+    name: "Detangling spray",
+    price: 6,
+    category: "Hair",
+    description: "200ml. With betaine and panthenol. Silicone-free. No sticking or weighing down. Small knots unravel without pulling.",
+    image: "assets/p1.jpeg",
   },
   {
-    id: "midnight-reset",
-    name: "Midnight Reset",
-    price: 56,
-    category: "Skin Care",
-    description: "Retinal alternative, ceramide mist, and peptide balm that repair while you sleep.",
-    image: "assets/p2.jpg",
+    id: "sheet-mask-aha-bha",
+    name: "Sheet mask AHA & BHA",
+    price: 4.5,
+    category: "Skin",
+    description: "1 pc. Vegan. With AHA and BHA fruit acids. Removes dead skin cells and refines pores. Helps prevent blemishes and pimples for a natural glow.",
+    image: "assets/p2.jpeg",
   },
   {
-    id: "silk-cleanse",
-    name: "Silk Cleanse Gel",
-    price: 24,
-    category: "Hair Care",
-    description: "pH-balanced gel with rice ferment and amino acids-melts sunscreen without stripping.",
-    image: "assets/p3.jpg",
+    id: "vitamin-c-face-mask",
+    name: "Vitamin C face mask",
+    price: 3.5,
+    category: "Skin",
+    description: "16 ml. 24-hour moisturizing with vitamin C and hyaluronic acid. Antioxidant effect. Vegan.",
+    image: "assets/p3.jpeg",
   },
   {
-    id: "melting-milk",
-    name: "Melting Milk Balm",
-    price: 28,
-    category: "Body Care",
-    description: "Cream-to-milk balm with meadowfoam and oat lipid for a plush first cleanse.",
-    image: "assets/p4.jpg",
+    id: "hair-color-removal-cream",
+    name: "Hair color removal cream",
+    price: 16,
+    category: "Hair",
+    description: "100 ml. Makes hairs invisible for face, upper lip, arms, and legs. Suitable for all skin types. Individually dosable.",
+    image: "assets/p4.jpeg",
   },
   {
-    id: "glass-serum",
-    name: "Glass Skin Serum",
-    price: 36,
-    category: "Skin Care",
-    description: "Niacinamide, hyaluronic acid, and tranexamic acid for tone-evening, pore-softening radiance.",
-    image: "assets/p5.jpg",
+    id: "fixing-brush-stick",
+    name: "Fixing Brush Styling Finishing Stick",
+    price: 9.5,
+    category: "Hair",
+    description: "10 ml. Against baby hairs. Quick fixation of stray hairs. Easy control. Apply to dry hair.",
+    image: "assets/p5.jpeg",
   },
   {
-    id: "calm-essence",
-    name: "Calm Barrier Essence",
-    price: 32,
-    category: "Supplements / Vitamins",
-    description: "Green tea, panthenol, and beta-glucan to soothe flushed, sensitized skin instantly.",
-    image: "assets/p6.jpg",
+    id: "soft-cotton-dry-shampoo",
+    name: "Soft Cotton dry shampoo",
+    price: 7.5,
+    category: "Hair",
+    description: "200 ml. Floral-fresh scent. Fresh hair without washing in seconds. No visible residue after brushing.",
+    image: "assets/p6.jpeg",
   },
   {
-    id: "smooth-peel",
-    name: "Smooth Renew Peel",
-    price: 30,
-    category: "Body Care",
-    description: "Lactic + mandelic blend buffered with polyglutamic acid for a no-burn weekly reset.",
-    image: "assets/p7.jpg",
+    id: "braun-dry-shampoo",
+    name: "Braun dry shampoo",
+    price: 8,
+    category: "Skin",
+    description: "200 ml. For dark hair. Fresh hair without washing in seconds. No visible residue after brushing.",
+    image: "assets/p7.jpeg",
   },
   {
-    id: "spot-veil",
-    name: "Spot Veil Corrector",
-    price: 22,
+    id: "makeup-remover-wipes",
+    name: "3-in-1 Caring Makeup Remover Wipes",
+    price: 4.5,
     category: "Makeup",
-    description: "Encapsulated salicylic and azelaic acid target blemishes without drying surrounding skin.",
-    image: "assets/p8.jpg",
+    description: "25 count. Gentle cleansing for a soft skin feeling. With vitamin E, provitamin B5, and almond oil. Fragrance-free. For dry and sensitive skin.",
+    image: "assets/p8.jpeg",
+  },
+  {
+    id: "oil-free-eye-pads",
+    name: "Oil-free eye makeup remover pads",
+    price: 5,
+    category: "Makeup",
+    description: "50 pieces. Oil-free eye pads for water-soluble makeup. Nourishes without leaving a greasy residue. Fragrance-free.",
+    image: "assets/p9.jpeg",
+  },
+  {
+    id: "micellar-eye-pads",
+    name: "Micellar eye makeup remover pads, oil-based",
+    price: 5,
+    category: "Makeup",
+    description: "50 count. Oily eye pads for waterproof makeup. Conditions the eyelashes. Fragrance-free.",
+    image: "assets/p10.jpeg",
+  },
+  {
+    id: "hair-removal-cream",
+    name: "Hair removal cream",
+    price: 5,
+    category: "Body",
+    description: "125 ml. Suitable for sensitive skin. Removes body hair easily and safely. With shea butter, silk, and lotus extract.",
+    image: "assets/p11.jpeg",
+  },
+  {
+    id: "retinol-sheet-mask",
+    name: "Retinol sheet mask",
+    price: 4.5,
+    category: "Skin",
+    description: "1 pc. Provides intense moisture with retinol, phytosqualane, and vitamin E. Firming and smoothing.",
+    image: "assets/p12.jpeg",
+  },
+  {
+    id: "bamboo-head-massage-brush",
+    name: "Bamboo head massage brush",
+    price: 20.5,
+    category: "Hair",
+    description: "1 pc. Made from premium bamboo - 100% FSC. Antistatic. Soothing massage sensation. Suitable for all hair lengths and hair types.",
+    image: "assets/p13.jpeg",
+  },
+  {
+    id: "shaving-oil",
+    name: "Shaving oil",
+    price: 7.5,
+    category: "Body",
+    description: "75 ml. With 5-fold care oil complex. For sensitive skin. Forms a protective barrier between the blade and the skin. Calms stressed skin for a silky-smooth feel.",
+    image: "assets/p14.jpeg",
+  },
+  {
+    id: "anti-blackhead-nose-strips",
+    name: "Anti-blackhead nose strips, skin cleanser",
+    price: 5,
+    category: "Skin",
+    description: "3 pieces. Removes blackheads on nose, chin, and forehead. Deep pore cleaning with salicylic acid and tea tree oil.",
+    image: "assets/p15.jpeg",
+  },
+  {
+    id: "anti-acne-patches",
+    name: "Anti-acne patches, skin clear",
+    price: 7,
+    category: "Skin",
+    description: "36 pieces. With salicylic acid for fast, targeted drying. Transparent patches in two diameters. Results visible after first application.",
+    image: "assets/p16.jpeg",
+  },
+  {
+    id: "moisturizing-hair-milk",
+    name: "Moisturizing Hair Milk",
+    price: 5,
+    category: "Hair",
+    description: "200 ml. Coconut and papaya scent. Anti-dryness effect for dry & damaged hair. Silicone-free. Vegan.",
+    image: "assets/p17.jpeg",
+  },
+  {
+    id: "natural-beauty-shower-gel",
+    name: "Natural Beauty Shower Gel with Cherry Blossom Extract & Almond Oil",
+    price: 4.5,
+    category: "Body",
+    description: "250 ml. With organic almond oil and cherry blossom extract. Dermatologically confirmed skin compatibility. pH skin neutral. Vegan.",
+    image: "assets/p18.jpeg",
+  },
+  {
+    id: "sensitive-deodorant-wipes",
+    name: "Sensitive deodorant wipes",
+    price: 6,
+    category: "Skin",
+    description: "10 pieces. Up to 24 hours of deodorant protection with aloe vera. Suitable for sensitive skin. Aluminum-free.",
+    image: "assets/p19.jpeg",
+  },
+  {
+    id: "lavender-herbal-bath",
+    name: "Lavender herbal bath",
+    price: 5.5,
+    category: "Body",
+    description: "500 ml. Dermatologically confirmed skin compatibility. With lavender oil. pH skin-neutral. Formula without microplastics and water-soluble, purely synthetic polymers.",
+    image: "assets/p20.jpeg",
   },
 ];
 
 const state = {
   activeFilter: "All",
   cart: [],
+  showAllProducts: false,
+  searchQuery: "",
 };
 
 const productGrid = document.getElementById("productGrid");
 const categoryFilters = document.getElementById("categoryFilters");
+const viewAllBtn = document.getElementById("viewAllBtn");
+const productSearch = document.getElementById("productSearch");
 const cartPanel = document.getElementById("cartPanel");
 const cartBackdrop = document.getElementById("cartBackdrop");
 const cartItems = document.getElementById("cartItems");
@@ -121,6 +221,7 @@ function renderFilters() {
     if (label === state.activeFilter) btn.classList.add("active");
     btn.addEventListener("click", () => {
       state.activeFilter = label;
+      state.showAllProducts = false;
       renderFilters();
       renderProducts();
     });
@@ -134,15 +235,23 @@ function renderProducts() {
     ? products
     : products.filter((p) => p.category === state.activeFilter);
 
-  filtered.forEach((product) => {
+  const query = state.searchQuery.trim().toLowerCase();
+  const searched = query
+    ? filtered.filter((p) => p.name.toLowerCase().includes(query))
+    : filtered;
+
+  const displayList = state.showAllProducts ? searched : searched.slice(0, 12);
+  displayList.forEach((product) => {
     const card = document.createElement("article");
     card.className = "product-card";
 
     const badge = product.badge ? `<span class="badge">${product.badge}</span>` : "";
-    const shortDescription = product.description.length > 90
-      ? `${product.description.slice(0, 90)}...`
-      : product.description;
     const imageSrc = product.image || "assets/placeholder.jpg";
+
+    const isMobile = window.matchMedia("(max-width: 540px)").matches;
+    if (isMobile) {
+      card.classList.add("desc-collapsed");
+    }
 
     card.innerHTML = `
       ${badge}
@@ -153,15 +262,17 @@ function renderProducts() {
       <div class="product-body">
         <p class="eyebrow">${product.category}</p>
         <h3>${product.name}</h3>
-        <p class="subtle product-desc">${shortDescription}</p>
-        <div class="product-inline">
-          <button class="toggle-desc" type="button">Details</button>
-          <span class="price price-mobile">${formatCurrency(product.price)}</span>
-        </div>
-        <div class="product-meta">
-          <span class="price price-desktop">${formatCurrency(product.price)}</span>
-          <div class="card-actions">
-            <button class="add">Add to cart</button>
+        <p class="subtle product-desc">${product.description}</p>
+        <div class="product-footer">
+          <div class="product-inline">
+            <button class="toggle-desc" type="button">${isMobile ? "Details" : "Hide details"}</button>
+            <span class="price price-mobile">${formatCurrency(product.price)}</span>
+          </div>
+          <div class="product-meta">
+            <span class="price price-desktop">${formatCurrency(product.price)}</span>
+            <div class="card-actions">
+              <button class="add">Add to cart</button>
+            </div>
           </div>
         </div>
       </div>
@@ -171,13 +282,21 @@ function renderProducts() {
     const toggleBtn = card.querySelector(".toggle-desc");
     if (toggleBtn) {
       toggleBtn.addEventListener("click", () => {
-        const isOpen = card.classList.toggle("show-desc");
-        toggleBtn.textContent = isOpen ? "Hide details" : "Details";
+        const isCollapsed = card.classList.toggle("desc-collapsed");
+        toggleBtn.textContent = isCollapsed ? "Details" : "Hide details";
       });
     }
-
     productGrid.appendChild(card);
   });
+
+  if (viewAllBtn) {
+    const canShowAll = searched.length > 12;
+    viewAllBtn.classList.toggle("hidden", !canShowAll);
+    const label = state.activeFilter === "All" ? "products" : state.activeFilter;
+    viewAllBtn.textContent = state.showAllProducts
+      ? `Show fewer ${label}`
+      : `View all ${label}`;
+  }
 }
 
 function addToCart(productId) {
@@ -247,7 +366,8 @@ function closeCartPanel() {
 }
 
 function formatCurrency(value) {
-  return `$${value.toFixed(0)}`;
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isInteger(rounded) ? `$${rounded}` : `$${rounded.toFixed(1)}`;
 }
 
 function handleCheckout() {
@@ -408,6 +528,19 @@ function attachEvents() {
   cartToggle.addEventListener("click", openCart);
   closeCart.addEventListener("click", closeCartPanel);
   cartBackdrop.addEventListener("click", closeCartPanel);
+  if (productSearch) {
+    productSearch.addEventListener("input", (e) => {
+      state.searchQuery = e.target.value;
+      state.showAllProducts = false;
+      renderProducts();
+    });
+  }
+  if (viewAllBtn) {
+    viewAllBtn.addEventListener("click", () => {
+      state.showAllProducts = !state.showAllProducts;
+      renderProducts();
+    });
+  }
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
