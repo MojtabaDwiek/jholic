@@ -417,18 +417,277 @@ const products = [
     description: "3 pieces. Set includes: 3x shower gel (100 ml each). Three refreshing scents. Gentle and thorough skin cleansing. Ideal as a gift.",
     image: "assets/p52.jpeg",
   },
+  {
+    id: "vitamin-d3-pearls-1000-iu",
+    name: "Vitamin D3 pearls 1000 IU",
+    price: 13,
+    category: "Vitamin",
+    description: "60 pieces, 13.3 g. The sunshine vitamin. Contributes to normal bones and muscles, supports immune system.",
+    image: "assets/p53.jpeg",
+  },
+  {
+    id: "magnesium-500-night-depot",
+    name: "Magnesium 500 Night Depot",
+    price: 17,
+    category: "Vitamin",
+    description: "30 tablets, 43 g. For relaxed muscles during sleep. 3 magnesium compounds with depot effect. With L-tryptophan + hop extract.",
+    image: "assets/p54.jpeg",
+  },
+  {
+    id: "skin-hair-nails",
+    name: "Skin, hair, nails",
+    price: 16,
+    category: "Vitamin",
+    description: "30 pieces, 22 g. Beauty formula with 14 nutrients. Collagen, hyaluronic acid, coenzyme Q10, and zinc.",
+    image: "assets/p55.jpeg",
+  },
+  {
+    id: "vitamin-b12-350-depot",
+    name: "Vitamin B12 350 Depot",
+    price: 13,
+    category: "Vitamin",
+    description: "30 mini-tablets, 6 g. Helps reduce tiredness and fatigue. High dose 350 mcg B12 with long-term care.",
+    image: "assets/p56.jpeg",
+  },
+  {
+    id: "intensive-gastrointestinal-relief",
+    name: "Intensive Gastrointestinal Relief Capsules",
+    price: 15,
+    category: "Vitamin",
+    description: "20 capsules. Fast-acting pressure relief. Up to 1,000 mg simethicone per day. Gluten and lactose free.",
+    image: "assets/p57.jpeg",
+  },
+  {
+    id: "collagen-5000",
+    name: "Collagen 5000",
+    price: 22,
+    category: "Vitamin",
+    description: "20 sachets, 140 g. 5000 mg collagen hydrolyzate per serving. With 100 mg chondroitin, vitamins C and D.",
+    image: "assets/p58.jpeg",
+  },
+  {
+    id: "multivitamin-gummy-bears-kids",
+    name: "Multivitamin gummy bears for children",
+    price: 11,
+    category: "Vitamin",
+    description: "60 pieces, 120 g. Multivitamin gummies. No dyes or preservatives.",
+    image: "assets/p59.jpeg",
+  },
+  {
+    id: "multivitamin-gummies",
+    name: "Multivitamin Gummies",
+    price: 15,
+    category: "Vitamin",
+    description: "60 pieces, 120 g. With 10 vitamins. 3 fruity flavors. Vegan and sugar-free.",
+    image: "assets/p60.jpeg",
+  },
+  {
+    id: "multi-mineral-effervescent",
+    name: "Multi-mineral effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 pieces, 82 g. Effervescent mineral blend.",
+    image: "assets/p61.jpeg",
+  },
+  {
+    id: "vitamin-b12-effervescent",
+    name: "Vitamin B12 effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent B12 supplement.",
+    image: "assets/p62.jpeg",
+  },
+  {
+    id: "vitamin-c-effervescent",
+    name: "Vitamin C effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent vitamin C.",
+    image: "assets/p63.jpeg",
+  },
+  {
+    id: "multivitamin-effervescent",
+    name: "Multivitamin effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent multivitamin.",
+    image: "assets/p64.jpeg",
+  },
+  {
+    id: "magnesium-effervescent",
+    name: "Magnesium effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent magnesium.",
+    image: "assets/p65.jpeg",
+  },
+  {
+    id: "iron-vitamin-c-effervescent",
+    name: "Iron + Vitamin C effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent iron with vitamin C.",
+    image: "assets/p66.jpeg",
+  },
+  {
+    id: "calcium-effervescent",
+    name: "Calcium effervescent tablets",
+    price: 5.5,
+    category: "Vitamin",
+    description: "20 tablets, 82 g. Effervescent calcium.",
+    image: "assets/p67.jpeg",
+  },
+  {
+    id: "hair-powder-volume",
+    name: "Hair powder VOLUME",
+    price: 12,
+    category: "Hair",
+    description: "10 g. Volume and control for all hair types. Up to 24 hours without clogging. Helps protect from drying and humidity.",
+    image: "assets/p68.jpeg",
+  },
+  {
+    id: "heat-protection-spray",
+    name: "Heat protection spray",
+    price: 13,
+    category: "Hair",
+    description: "250 ml. Protection for heat styling up to 230 C. Up to 3 days anti-frizz and shine. No weight or sticking.",
+    image: "assets/p69.jpeg",
+  },
+  {
+    id: "magnesium-intense-600-d3-sachets",
+    name: "Magnesium Intense 600 + D3 Sachets",
+    price: 19,
+    category: "Vitamin",
+    description: "20 sachets, 36 g. Granules with magnesium and vitamin D3. Depot effect and easy on the go.",
+    image: "assets/p70.jpeg",
+  },
+  {
+    id: "omega-3-d3-kids-chewable",
+    name: "Omega-3 + Vitamin D3 Kids chewable tablets",
+    price: 24,
+    category: "Vitamin",
+    description: "27 pieces, 35.1 g. Strawberry and citrus flavor. With vitamin D3 and omega-3.",
+    image: "assets/p71.jpeg",
+  },
+  {
+    id: "dead-sea-scalp-therapy-anti-itch",
+    name: "Dead Sea Scalp Therapy Anti-Itch Fluid",
+    price: 18,
+    category: "Hair",
+    description: "75 ml. Soothes itching, tightness, and dryness. Improves moisture retention. Dermatologically confirmed.",
+    image: "assets/p72.jpeg",
+  },
+  {
+    id: "acute-irritating-cough-spray",
+    name: "Acute Irritating Cough Spray",
+    price: 19,
+    category: "Vitamin",
+    description: "1 piece. Throat spray with honey and dexpanthenol. Moisturizes mucous membranes. Suitable for ages 5+.",
+    image: "assets/p73.jpeg",
+  },
+  {
+    id: "melatonin-intens-mini-tablets",
+    name: "Melatonin Intens Mini Tablets",
+    price: 14,
+    category: "Vitamin",
+    description: "30 tablets. 2.5 mg melatonin with vitamins B1 and B2. Practical and easy to swallow. Helps with jet lag.",
+    image: "assets/p74.jpeg",
+  },
+  {
+    id: "immusan-c-complex",
+    name: "Immusan C Complex tablets",
+    price: 17,
+    category: "Vitamin",
+    description: "20 pieces, 25.2 g. Depot tablets with vitamins C, D, B12, zinc, and selenium. High-dose formula.",
+    image: "assets/p75.jpeg",
+  },
+  {
+    id: "hair-tonic-rosemary",
+    name: "Hair Tonic Invigorating Rosemary Hair Tonic",
+    price: 30,
+    category: "Hair",
+    description: "100 ml. Maintains a healthy scalp. Use morning and evening. Gives hair more structure.",
+    image: "assets/p76.jpeg",
+  },
+  {
+    id: "hair-treatment-conditioning-balm",
+    name: "Hair treatment conditioning balm",
+    price: 8,
+    category: "Hair",
+    description: "60 ml. Permanent hair color. 100% grey hair coverage. Glossy, long-lasting color. Silicone-free.",
+    image: "assets/p77.jpeg",
+  },
+  {
+    id: "shampoo-thick-full-biotin-collagen",
+    name: "Shampoo thick & full, biotin & collagen",
+    price: 21,
+    category: "Hair",
+    description: "385 ml. Leaves volume and a silky feel. With biotin, collagen, and wheat protein. Nourishes from root to tip.",
+    image: "assets/p78.jpeg",
+  },
+  {
+    id: "hair-treatment-rescue-shots-smooth-silky",
+    name: "Hair Treatment Rescue Shots Smooth & Silky",
+    price: 12,
+    category: "Hair",
+    description: "45 ml (3 x 15 ml). Hyaluronic acid, argan oil, and vitamin B7. For unruly hair. Swiss Vitamin Institute tested.",
+    image: "assets/p79.jpeg",
+  },
+  {
+    id: "hair-vitamins-ah-mazing-biotin",
+    name: "Hair vitamins Ah-Mazing Hair Vitamin Biotin",
+    price: 35,
+    category: "Hair",
+    description: "45 tablets, 112.5 g. Biotin, zinc, folic acid, coconut oil, vitamins C and E. Sugar-free, vegan, 5,000 mcg biotin per gummy.",
+    image: "assets/p80.jpeg",
+  },
+  {
+    id: "virus-test-5-in-1",
+    name: "5-in-1 Virus Test Self-Test",
+    price: 15,
+    category: "Device",
+    description: "1 piece. Detects SARS-CoV-2, Influenza A/B, RSV, and Adenovirus. Easy to use at home.",
+    image: "assets/p81.jpeg",
+  },
+  {
+    id: "moisture-shampoo",
+    name: "Moisture Shampoo",
+    price: 16,
+    category: "Hair",
+    description: "350 ml. Moisturizing shampoo with rice protein. For normal and dry hair. PETA-certified and sulfate-free.",
+    image: "assets/p82.jpeg",
+  },
+  {
+    id: "dry-shampoo-no-bad-hair-days",
+    name: "Dry shampoo no bad hair days effect 7in1",
+    price: 11,
+    category: "Hair",
+    description: "200 ml. Instant freshness and volume with UV filters. Leaves no white residue. Free from animal ingredients.",
+    image: "assets/p83.jpeg",
+  },
+  {
+    id: "shampoo-curl-dream-mango-matcha",
+    name: "Shampoo Curl Dream Mango Matcha",
+    price: 12,
+    category: "Hair",
+    description: "300 ml. Curly hair shampoo with anti-frizz effect. For damaged, dull, dry, and colored hair. No microplastics or mineral oil.",
+    image: "assets/p84.jpeg",
+  },
 ];
+
+const PRODUCTS_PAGE_SIZE = 12;
 
 const state = {
   activeFilter: "All",
   cart: [],
-  showAllProducts: false,
+  visibleCount: PRODUCTS_PAGE_SIZE,
   searchQuery: "",
 };
 
 const productGrid = document.getElementById("productGrid");
 const categoryFilters = document.getElementById("categoryFilters");
-const viewAllBtn = document.getElementById("viewAllBtn");
+const viewMoreBtn = document.getElementById("viewMoreBtn");
+const viewLessBtn = document.getElementById("viewLessBtn");
 const productSearch = document.getElementById("productSearch");
 const cartPanel = document.getElementById("cartPanel");
 const cartBackdrop = document.getElementById("cartBackdrop");
@@ -477,7 +736,7 @@ function renderFilters() {
     if (label === state.activeFilter) btn.classList.add("active");
     btn.addEventListener("click", () => {
       state.activeFilter = label;
-      state.showAllProducts = false;
+      state.visibleCount = PRODUCTS_PAGE_SIZE;
       renderFilters();
       renderProducts();
     });
@@ -485,18 +744,22 @@ function renderFilters() {
   });
 }
 
-function renderProducts() {
-  productGrid.innerHTML = "";
+function getSearchedProducts() {
   const filtered = state.activeFilter === "All"
     ? products
     : products.filter((p) => p.category === state.activeFilter);
 
   const query = state.searchQuery.trim().toLowerCase();
-  const searched = query
+  return query
     ? filtered.filter((p) => p.name.toLowerCase().includes(query))
     : filtered;
+}
 
-  const displayList = state.showAllProducts ? searched : searched.slice(0, 12);
+function renderProducts() {
+  productGrid.innerHTML = "";
+  const searched = getSearchedProducts();
+
+  const displayList = searched.slice(0, state.visibleCount);
   displayList.forEach((product) => {
     const card = document.createElement("article");
     card.className = "product-card";
@@ -545,13 +808,12 @@ function renderProducts() {
     productGrid.appendChild(card);
   });
 
-  if (viewAllBtn) {
-    const canShowAll = searched.length > 12;
-    viewAllBtn.classList.toggle("hidden", !canShowAll);
-    const label = state.activeFilter === "All" ? "products" : state.activeFilter;
-    viewAllBtn.textContent = state.showAllProducts
-      ? `Show fewer ${label}`
-      : `View all ${label}`;
+  if (viewMoreBtn && viewLessBtn) {
+    const canShowAll = searched.length > PRODUCTS_PAGE_SIZE;
+    const hasMore = state.visibleCount < searched.length;
+    const canShowLess = state.visibleCount > PRODUCTS_PAGE_SIZE;
+    viewMoreBtn.classList.toggle("hidden", !canShowAll || !hasMore);
+    viewLessBtn.classList.toggle("hidden", !canShowAll || !canShowLess);
   }
 }
 
@@ -692,8 +954,7 @@ function submitCheckout(e) {
     `Delivery (${location.label}): ${formatCurrency(location.fee)}`,
     `Total with delivery: ${formatCurrency(subtotal + location.fee)}`,
     "",
-    "Preferred contact: WhatsApp",
-    "Notes: ",
+    
   ];
 
   const message = encodeURIComponent(lines.join("\n"));
@@ -787,13 +1048,20 @@ function attachEvents() {
   if (productSearch) {
     productSearch.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
-      state.showAllProducts = false;
+      state.visibleCount = PRODUCTS_PAGE_SIZE;
       renderProducts();
     });
   }
-  if (viewAllBtn) {
-    viewAllBtn.addEventListener("click", () => {
-      state.showAllProducts = !state.showAllProducts;
+  if (viewMoreBtn) {
+    viewMoreBtn.addEventListener("click", () => {
+      const searched = getSearchedProducts();
+      state.visibleCount = Math.min(state.visibleCount + PRODUCTS_PAGE_SIZE, searched.length);
+      renderProducts();
+    });
+  }
+  if (viewLessBtn) {
+    viewLessBtn.addEventListener("click", () => {
+      state.visibleCount = PRODUCTS_PAGE_SIZE;
       renderProducts();
     });
   }
