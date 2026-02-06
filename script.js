@@ -911,13 +911,14 @@ let checkoutForm;
 let nameInput;
 let phoneInput;
 let locationSelect;
+let addressInput;
 let checkoutError;
 let checkoutDelivery;
 let checkoutTotal;
 
 const deliveryAreas = [
-  { key: "Beirut", label: "Beirut", fee: 4 },
-  { key: "Mount-lebanon", label: "All Lebanon", fee: 5 },
+  { key: "Beirut", label: "Beirut", fee: 3 },
+  { key: "Mount-lebanon", label: "All Lebanon", fee: 4 },
 ];
 
 function init() {
@@ -1109,14 +1110,16 @@ function submitCheckout(e) {
   const phone = phoneInput.value.replace(/\s|-/g, "");
   const locationKey = locationSelect.value;
   const location = deliveryAreas.find((area) => area.key === locationKey);
+  const address = addressInput.value.trim();
 
   checkoutError.textContent = "";
 
-  if (!name || !phone || !locationKey) {
-    checkoutError.textContent = "Please fill name, phone, and delivery area.";
+  if (!name || !phone || !locationKey || !address) {
+    checkoutError.textContent = "Please fill name, phone, delivery area, and address.";
     if (!name) nameInput.focus();
     else if (!phone) phoneInput.focus();
-    else locationSelect.focus();
+    else if (!locationKey) locationSelect.focus();
+    else addressInput.focus();
     return;
   }
 
@@ -1129,6 +1132,12 @@ function submitCheckout(e) {
   if (!isLebanesePhone(phone)) {
     checkoutError.textContent = "Enter a valid Lebanese number (e.g., +96171234567).";
     phoneInput.focus();
+    return;
+  }
+
+  if (!address) {
+    checkoutError.textContent = "Please enter your address.";
+    addressInput.focus();
     return;
   }
 
@@ -1153,6 +1162,7 @@ function submitCheckout(e) {
     `Name: ${name}`,
     `Phone: ${phone}`,
     `Area: ${location.label}`,
+    `Address: ${address}`,
     "",
     ...orderLines,
     `Subtotal: ${formatCurrency(subtotal)}`,
@@ -1211,6 +1221,10 @@ function buildCheckoutModal() {
             ${areaOptions}
           </select>
         </label>
+        <label>
+          <span>Address</span>
+          <input type="text" name="address" placeholder="Street, building, floor" required />
+        </label>
         <div class="form-summary">
           <div>
             <span>Delivery</span>
@@ -1233,6 +1247,7 @@ function buildCheckoutModal() {
   nameInput = checkoutForm.querySelector('input[name="name"]');
   phoneInput = checkoutForm.querySelector('input[name="phone"]');
   locationSelect = checkoutForm.querySelector('select[name="location"]');
+  addressInput = checkoutForm.querySelector('input[name="address"]');
   checkoutError = checkoutForm.querySelector(".form-error");
   checkoutDelivery = checkoutForm.querySelector("#deliveryFee");
   checkoutTotal = checkoutForm.querySelector("#deliveryTotal");
